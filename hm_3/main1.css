@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.boss{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    background: white;
+    align-items: center;
+
+}
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 800px;
+    height: 600px;
+}
+
+.big .main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: darkblue;
+    position: relative;
+}
+.bg-base{
+    background: mediumpurple;
+    position: relative;
+    top: 60px;
+}
+.radius-base{
+    border-radius: 10px;
+}
+.h-w{
+    height: 100px;
+    width: 100px;
+}
+.m{
+    margin: 20px;
+}
+/*.bottoms{*/
+/*    width: 60px;*/
+/*    height: 30px;*/
+/*    border-radius: 10px;*/
+/*    background: mediumpurple;*/
+/*}*/

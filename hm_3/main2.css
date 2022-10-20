@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.big{
+    width: 1000px;
+    height: 600px;
+    background: deeppink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.target{
+    width: 25%;
+    height: 50%;
+    background: silver;
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    position: relative;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background: mediumpurple;
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+}
