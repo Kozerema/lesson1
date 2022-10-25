@@ -1,0 +1,39 @@
+.target {
+    height: 227px;
+    width: 115px;
+    border: 1px solid black;
+    background-image: url("../images/sprite.png");
+    background-position: 0 0;
+    animation-name: run;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /*animation-timing-function: steps(5);*/
+}
+
+@keyframes run {
+    0% {
+        background-position: 0 0;
+    }
+    13% {
+        background-position: -115px 0;
+    }
+    26% {
+        background-position: -220px 0;
+    }
+    38% {
+        background-position: -320px 0;
+    }
+    50% {
+        background-position: -415px 0;
+    }
+    62% {
+        background-position: -518px 0;
+    }
+    74% {
+        background-position: -618px 0;
+    }
+    100% {
+        background-position: -785px 0;
+    }
+}
