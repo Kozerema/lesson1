@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 500px;
+    width: 1000px;
+    background: silver;
+    /*flex-wrap: wrap; якщо контейнер не вміщається перенести його вниз*/
+}
+
+.father {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    width: 100%;
+    height: 200px;
+    background: deeppink;
+
+
+}
+
+.child {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.child1 {
+    height: 300px;
+    width: 70%;
+    background: gray;
+
+}
+
+.t {
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+.child2 {
+    width: 30%;
+    height: 300px;
+    background: plum;
+    box-sizing: border-box;
+    border: 2px solid black;
+    
+}
+
+@media screen and (min-width: 0) and (max-width: 900px ) {
+    .child {
+        flex-direction: column;
+    }
+
+    .t {
+        width: 100%;
+        height: 100px;
+    }
+
+    .child1 {
+        width: 100%;
+        height: 300px;
+    }
+
+}

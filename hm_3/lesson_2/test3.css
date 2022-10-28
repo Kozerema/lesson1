@@ -2,7 +2,7 @@
     height: 227px;
     width: 115px;
     border: 1px solid black;
-    background-image: url("../images/sprite.png");
+    background-image: url("../../images/sprite.png");
     background-position: 0 0;
     animation-name: run;
     animation-duration: 6s;
